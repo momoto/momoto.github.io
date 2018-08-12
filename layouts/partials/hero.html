@@ -1,0 +1,43 @@
+<section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
+    <div class="hero">
+        <div class="hero-left">
+            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 200px; border-radius: 50%; ">
+            <h2 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
+            <div class="icons">
+                <a href="https://github.com/momoto">
+                    <img src="https://assets-cdn.github.com/favicon.ico" style="width: 16px;" alt="">
+                </a>
+                <a href="https://www.transifex.com/user/profile/momoto/">
+                    <img src="https://cdn.transifex.com/static/images/favicons/favicon-16x16.c42dfd1ff045.png" style="width: 16px;" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/seijimomoto/">
+                    <img src="https://static.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" style="width: 16px;" alt="">
+                </a>
+                <a href="https://www.facebook.com/seiji.momoto">
+                    <img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" style="width: 16px;" alt="">
+                </a>
+                <!--a href="https://launchpad.net/~seiji-momoto">Launchpad</a-->
+                <!--a href="https://stackexchange.com/users/1555992/seiji-momoto></a-->
+                <!--a href="https://stackoverflow.com/users/1447074/seiji-momoto"></a-->
+                <!--a href="https://askubuntu.com/users/69651/seiji-momoto"></a-->
+                <!--a href="https://community.dynamics.com/members/seiji-momoto"></a-->
+                <!--a href="https://www.youracclaim.com/user/seiji-momoto"></a-->
+                <!--a href="https://metacpan.org/author/SMOMOT"></a-->
+                <!--a href="https://www.meetup.com/members/245996840/"></a-->
+                <!--a href="https://bitbucket.org/momoto/"></a-->
+                <!--a href="https://coderwall.com/momoto"></a-->
+                <!--a href="https://www.slideshare.net/seijimomoto"></a-->
+            </div>
+            {{ if false }}
+            <a href="{{ .Site.BaseURL }}{{ .Site.Params.Hero.Resume }}" target="blank" class="download-resume" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
+                <img style="position: relative;top: 1.8px;padding-right: 6px;" src="svg/dl-resume.svg">
+                Download Resume</a>
+            {{ end }}
+        </div>
+        <div class="hero-right">
+            {{ range $paragraph := .Site.Params.Hero.hero_right }}
+                <p>{{ $paragraph | markdownify }}</p>
+            {{ end }}
+        </div>
+    </div>
+</section>

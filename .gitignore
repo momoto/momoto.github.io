@@ -6,7 +6,6 @@
 .themes
 _config.yml
 _deploy
-public
 sass
 sass.old
 source

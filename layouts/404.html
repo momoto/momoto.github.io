@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        <p>404 page not found. <a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>.</p>
+        {{ template "_internal/google_analytics.html" . }}
+    </body>
+</html>
