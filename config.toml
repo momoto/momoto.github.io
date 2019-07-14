@@ -21,7 +21,7 @@ disableKinds = [
 
 [params]
     theme_color = "#574CDD"
-    description = "Currently working on a project for implementation of Microsoft Dynamics 365 Business Central (aka Dynamics NAV) in Japan."
+    description = "works on business applications and Dynamics 365 Business Central"
     description_photo = "avatar.jpg"
     favicon = "identicon.png"
     logo = "identicon.png"
@@ -33,13 +33,6 @@ disableKinds = [
     enable = true
     avatar = "avatar.jpg"
     subtitle = "Seiji Momoto"
-    hero_right = [
-        "**Currently working on a project for implementation of Microsoft Dynamics 365 Business Central (aka Dynamics NAV) in Japan.**",
-        "A software engineer who has worked in the information technology industry in Japan. Specifically, I had worked in the Open Source Software (OSS) field as a web developer before and have now been working in the Enterprise Resource Planning (ERP) field.",
-        "[qiita.com/momoto](https://qiita.com/momoto) is where I post in Japanese. * The views and opinions expressed here are mine and do not necessarily represent the views of my employer.",
-        "I am trying to stay active in the Open Source Communities. And now I am new to [TechNet](https://social.technet.microsoft.com/profile/Seiji+Momoto/), [MSDN](https://social.msdn.microsoft.com/profile/Seiji+Momoto/) and [Microsoft Dynamics Community](https://community.dynamics.com/members/seiji-momoto). Also, there are some tries to contribute to the community for Open Source Localization such as [VS Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja), [SQL Operations Studio](https://microsoftl10n.github.io/SQLOpsStudioLoc/), [aspnet/docs.ja-jp](https://github.com/aspnet/Docs.ja-jp/graphs/contributors), [dotnet/docs.ja-jp](https://github.com/dotnet/docs.ja-jp/graphs/contributors), [visualstudio-docs.ja-jp](https://github.com/MicrosoftDocs/visualstudio-docs.ja-jp/graphs/contributors), [sql-docs.ja-jp](https://github.com/MicrosoftDocs/sql-docs.ja-jp/graphs/contributors), [azure-docs.ja-jp](https://github.com/MicrosoftDocs/azure-docs.ja-jp/graphs/contributors) and [Ubuntu](https://launchpad.net/~seiji-momoto) into Japanese language.",
-        "SAP Certified Development Associate / Oracle Certified Associate / I ♥ Linux."
-    ]
     resume = "ResumeCollado.pdf"
 
 [params.process]

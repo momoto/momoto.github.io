@@ -8,29 +8,20 @@
                 <a href="https://twitter.com/MomotoSeiji" class="fab fa-twitter-square"></a>
                 <a href="https://www.facebook.com/seiji.momoto" class="fab fa-facebook"></a>    
                 <a href="https://www.linkedin.com/in/seijimomoto/" class="fab fa-linkedin"></a>
-                <!--a href="https://www.transifex.com/user/profile/momoto/"></a-->
-                <!--a href="https://launchpad.net/~seiji-momoto"></a-->
-                <!--a href="https://stackexchange.com/users/1555992/seiji-momoto></a-->
-                <!--a href="https://stackoverflow.com/users/1447074/seiji-momoto"></a-->
-                <!--a href="https://askubuntu.com/users/69651/seiji-momoto"></a-->
-                <!--a href="https://community.dynamics.com/members/seiji-momoto"></a-->
-                <!--a href="https://www.youracclaim.com/user/seiji-momoto"></a-->
-                <!--a href="https://metacpan.org/author/SMOMOT"></a-->
-                <!--a href="https://www.meetup.com/members/245996840/"></a-->
-                <!--a href="https://bitbucket.org/momoto/"></a-->
-                <!--a href="https://coderwall.com/momoto"></a-->
-                <!--a href="https://www.slideshare.net/seijimomoto"></a-->
             </div>
-            {{ if false }}
-            <a href="{{ .Site.BaseURL }}{{ .Site.Params.Hero.Resume }}" target="blank" class="download-resume" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
-                <img style="position: relative;top: 1.8px;padding-right: 6px;" src="svg/dl-resume.svg">
-                Download Resume</a>
-            {{ end }}
         </div>
         <div class="hero-right">
-            {{ range $paragraph := .Site.Params.Hero.hero_right }}
-                <p>{{ $paragraph | markdownify }}</p>
-            {{ end }}
+            <p><strong>{{ .Site.Params.Description }}</strong></p>
+            <p>I started my career in the open source software field (OSS; specifically Linux Apache MySQL PHP etc). What I focus on in my whole career are to work well with the enterprise systems (e.g. SAP ERP, Microsoft Dynamics family) to grow a business fast by transforming the digital platforms. For the reason to achieve this, I believe I will keep following the technology field such as cloud computing and data science.</p>
+            <p>
+                I am trying to stay active in user communities:
+                <a href="https://qiita.com/momoto">Qiita</a>,
+                <a href="https://community.dynamics.com/members/seiji-momoto">Dynamics 365 Community</a>,
+                <a href="https://social.technet.microsoft.com/profile/Seiji+Momoto/">TechNet</a> and
+                <a href="https://social.msdn.microsoft.com/profile/Seiji+Momoto/">MSDN</a>.
+                * My opinions expressed in any user community and social network are mine and do not represent the views of affiliated organizations.
+            </p>
+            <p>SAP Certified Development Associate / Oracle Certified Associate / I ♥ Open Source.</p>
         </div>
     </div>
 </section>
