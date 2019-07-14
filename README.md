@@ -22,7 +22,10 @@
     ├── themes .. Hugo themes
     └── config.toml
 
-https://gohugo.io/getting-started/directory-structure/
+- https://gohugo.io/getting-started/directory-structure/
+- https://github.com/momoto/momoto.github.io/tree/master
+- https://github.com/momoto/momoto.github.io/tree/source
+- https://momoto.github.io
 
 ---
 
