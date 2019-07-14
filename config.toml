@@ -25,8 +25,8 @@ disableKinds = [
     theme_color = "#574CDD"
     description = "Currently working on a project for implementation of Microsoft Dynamics 365 Business Central (aka Dynamics NAV) in Japan."
     description_photo = "avatar.jpg"
-    favicon = "favicon.png"
-    logo = "favicon.png"
+    favicon = "identicon.png"
+    logo = "identicon.png"
 
 [params.nav]
     enable = false
