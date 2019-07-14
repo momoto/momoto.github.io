@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://momoto.github.io/index.html</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://momoto.github.io/categories/</loc>
     <priority>0</priority>
   </url>
