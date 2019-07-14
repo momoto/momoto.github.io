@@ -26,24 +26,7 @@ disableKinds = [
     favicon = "identicon.png"
     logo = "identicon.png"
 
-[params.nav]
-    enable = false
-
 [params.hero]
-    enable = true
     avatar = "avatar.jpg"
     subtitle = "Seiji Momoto"
     resume = "ResumeCollado.pdf"
-
-[params.process]
-    enable = false
-    title = "My Process"
-    subtitle = "Full Process Design"
-
-[params.case_studies]
-    enable = false
-    title = "Case Studies"
-    subtitle = "Selected Works"
-
-[params.footer]
-    enable = false
