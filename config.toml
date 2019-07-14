@@ -6,6 +6,21 @@ languageCode = "en-us"
 title = "Seiji Momoto"
 googleAnalytics = "UA-29340465-5"
 
+
+archetypeDir = "archetypes" # The directory where Hugo finds archetype files.
+dataDir = "data"            # The directory from where Hugo reads data files.
+resourceDir = "resources"   # where the files cache will be stored. 
+
+contentDir = "content"      # The directory from where Hugo reads content files.
+layoutDir = "layouts"       # The directory from where Hugo reads layouts (templates).
+staticDir = "static"        # A directory or a list of directories from where Hugo reads static files.
+publishDir = "public"       # The directory to where Hugo will write the final static site.
+
+disableKinds = [
+    # "page", "home", "section", "sitemap", "robotsTXT", "404"
+    "taxonomy", "taxonomyTerm", "RSS"
+]
+
 [params]
     theme_color = "#574CDD"
     description = "Currently working on a project for implementation of Microsoft Dynamics 365 Business Central (aka Dynamics NAV) in Japan."
@@ -46,14 +61,3 @@ googleAnalytics = "UA-29340465-5"
 [params.footer]
     enable = false
 
-[general]
-archetypeDir = "archetypes" # The directory where Hugo finds archetype files.
-dataDir = "data"            # The directory from where Hugo reads data files.
-resourceDir = "resources"   # where the files cache will be stored. 
-
-contentDir = "content"      # The directory from where Hugo reads content files.
-layoutDir = "layouts"       # The directory from where Hugo reads layouts (templates).
-staticDir = "static"        # A directory or a list of directories from where Hugo reads static files.
-publishDir = "public"       # The directory to where Hugo will write the final static site.
-
-disableKinds = [ "taxonomy", "taxonomyTerm", "RSS" ]
