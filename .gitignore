@@ -12,3 +12,4 @@ source
 source.old
 vendor
 node_modules
+.hugo_build.lock
