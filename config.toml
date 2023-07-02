@@ -21,12 +21,12 @@ disableKinds = [
 
 [params]
     theme_color = "#574CDD"
-    description = "works on business applications and Dynamics 365 Business Central"
-    description_photo = "avatar.jpg"
+    description = "works with business applications such as ERP systems."
+    description_photo = "identicon.png"
     favicon = "identicon.png"
     logo = "identicon.png"
 
 [params.hero]
-    avatar = "avatar.jpg"
+    avatar = "identicon.png"
     subtitle = "Seiji Momoto"
     resume = "ResumeCollado.pdf"

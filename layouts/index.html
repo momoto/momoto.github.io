@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
-    <body>
-        <div>
-            <section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
-                <div class="hero">
-                    <div class="hero-left">
-                        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seijimomoto"><a class="LI-simple-link" href='https://jp.linkedin.com/in/seijimomoto/en?trk=profile-badge'>Seiji Momoto</a></div>
-                    </div>
-                    <div class="hero-right">
-                        <p><strong>{{ .Site.Params.Description }}</strong></p>
-                        <p>I started my career in the open source software field (OSS; specifically Linux Apache MySQL PHP etc). What I focus on in my whole career are to work well with the enterprise systems (e.g. SAP ERP and Microsoft Dynamics family) to grow a business fast by transforming the digital platforms. For the reason to achieve this, I believe I will keep following the technology field such as cloud computing and data science.</p>
-                        <p>
-                            I am trying to stay active in user communities:
-                            <a href="https://github.com/momoto">GitHub</a> / 
-                            <a href="https://twitter.com/MomotoSeiji">Twitter</a> / 
-                            <a href="https://www.linkedin.com/in/seijimomoto/">Linkedin</a> / 
-                            <a href="https://qiita.com/momoto">Qiita</a> / 
-                            <a href="https://community.dynamics.com/members/seiji-momoto">Dynamics 365 Community</a> / 
-                            <a href="https://social.technet.microsoft.com/profile/Seiji+Momoto/">TechNet</a> and
-                            <a href="https://social.msdn.microsoft.com/profile/Seiji+Momoto/">MSDN</a>.
-                            * my opinions expressed in any user community and social network are mine and do not represent the views of affiliated organizations.
-                        </p>
-                        <p>SAP Certified Development Associate / Oracle Certified Associate / <a href="https://www.youracclaim.com/users/seiji-momoto/badges">Digital badges on Acclaim</a></p>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        {{ template "_internal/google_analytics.html" . }}
-    </body>
+<head>{{ partial "head.html" . }}</head>
+<body>
+<div>
+<section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
+<div class="hero">
+    <div class="hero-left">
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="seijimomoto" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://jp.linkedin.com/in/seijimomoto/en?trk=profile-badge">Seiji Momoto</a></div>
+    </div>
+    <div class="hero-right">
+        <p><strong>{{ .Site.Params.Description }}</strong></p>
+        <p>I focus to maximize business value by leveraging technologies for my whole career.</p>
+        <p>
+            <a href="https://github.com/momoto">GitHub</a> / 
+            <a href="https://twitter.com/MomotoSeiji">Twitter</a> / 
+            <a href="https://www.linkedin.com/in/seijimomoto/">Linkedin</a> / 
+            <a href="https://qiita.com/momoto">Qiita</a> / 
+            <a href="https://community.dynamics.com/profile/?userid=e3ae1126-4d02-ea11-a811-000d3a4f1ebb">Dynamics 365 Community</a> / 
+            <a href="https://www.credly.com/users/seiji-momoto/badges">Credly</a>.
+        </p>
+        <p>* my opinions expressed in social network are mine and do not represent the views of affiliated organizations.</p>
+    </div>
+</div>
+</section>
+</div>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+{{ template "_internal/google_analytics.html" . }}
+</body>
 </html>
