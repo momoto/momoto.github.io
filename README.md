@@ -4,7 +4,7 @@
 - To build static pages, `hugo`
 - To deploy it to github:
   ```:shell
-  cd public
+  cd docs
   git add .
   git commit -m "rebuilding site `date`"
   git push origin HEAD:master

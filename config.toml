@@ -12,7 +12,7 @@ resourceDir = "resources"   # where the files cache will be stored.
 contentDir = "content"      # The directory from where Hugo reads content files.
 layoutDir = "layouts"       # The directory from where Hugo reads layouts (templates).
 staticDir = "static"        # A directory or a list of directories from where Hugo reads static files.
-publishDir = "public"       # The directory to where Hugo will write the final static site.
+publishDir = "docs"       # The directory to where Hugo will write the final static site.
 
 disableKinds = [
     # "page", "home", "section", "sitemap", "robotsTXT", "404"
